@@ -21,3 +21,9 @@ Der Analyst wurde in den Test-Notebooks jeweils in einer individuellen Version m
 
 ### Dokumentation
 Es ist eine Dokumentation in Sphinx vorhanden. Hierzu über die Konsole im Ordner agent den Befehl "make html" ausführen. Dann im neu entstandenen Ordner _build den Ordner html und dann die Datei index.html öffnen.
+
+
+## Lizenz
+Dieses Projekt steht unter der [Creative Commons Namensnennung – Nicht-kommerziell 4.0 International Lizenz (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/deed.de).  
+Eine Nutzung ist nur mit Namensnennung und nicht-kommerziell gestattet.
+

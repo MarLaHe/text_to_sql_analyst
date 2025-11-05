@@ -1,7 +1,9 @@
 # Einführung 
 
 ### Übersicht
-In diesem Projekt wurde ein LLM-gestützter Workflow - im folgenden "Analyst" genannt (in der Ordnerstruktur jedoch teilweise noch "agent") - entwickelt, basierend auf dem Langgraph-Framework, der SQL-Abfragen auf unsere BigQuery-Datenbank ausführt. 
+In diesem Projekt wurde ein LLM-gestützter Workflow - im folgenden "Analyst" genannt - entwickelt, basierend auf dem Langgraph-Framework, der SQL-Abfragen auf eine BigQuery-Datenbank ausführt. 
+
+### Achtung: es sind nicht alle Dateien öffentlich. Die nachfolgende Beschreibung bezieht sich auf das vollständige Projekt.
 
 ### Projektstruktur (wo liegt was im Repository?)
 Im Ordner 'agent' findet sich das komplette Projekt. Er ist unterteilt in die Ordner 'core' und 'notebooks' (alle weiteren Ordner und Dateien dienen der Dokumentation in Sphinx oder der Paketorganisation!):
@@ -13,7 +15,7 @@ Im Ordner 'agent' findet sich das komplette Projekt. Er ist unterteilt in die Or
 <br>In 'output' liegen die Testergebnisse für jeden Analysten als CSV- sowie als JSON-Datei.
 
 ### Ausführung
-Der Analyst wurde in den Test-Notebooks jeweils in einer individuellen Version mittels 60 Fragen getestet. Für die Ausführung werden individuell Zugänge zur Schnittstelle eines Sprachmodells benötigt sowie ein Zugang zur Datenbank in BigQuery. Ich habe einen unternehmensinternen Zugang zu openAI bzw. BigQuery genutzt.
+Der Analyst wurde in den Test-Notebooks jeweils in einer individuellen Version mittels 60 Fragen getestet. Für die Ausführung werden individuell Zugänge zur Schnittstelle eines Sprachmodells benötigt sowie ein Zugang zur Datenbank in BigQuery.
 <br>Die verschiedenen Versionen des Analysten sind gemäß einer Ablation-Study gestaltet. 
 <br>Die Auswertung findet vergleichend zwischen Analysten bzgl. der Komponenten Kontext, Retry und Prompting sowie allgemein über alle Analysten, in Bezug auf unterschiedliche Fragenformulierung, unterschiedlich komplexe SQL und anhand einer Fehleranalyse im Notebook evaluation.ipynb statt.
 

@@ -1,0 +1,7 @@
+Dieses Werk steht unter der Creative Commons Namensnennung – Nicht-kommerziell 4.0 International Lizenz (CC BY-NC 4.0). 
+Weitere Infos: https://creativecommons.org/licenses/by-nc/4.0/deed.de
+
+Du darfst/solltest:
+- das Material teilen,
+- den Urheber nennen (z.B. Name in README),
+- den Code nicht kommerziell nutzen.
